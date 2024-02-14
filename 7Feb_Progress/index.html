@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DICE ROLLER</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h2>Dice Roller</h2>
+        <p>
+            Start Rolling and Level Up!
+        </p>
+        <p>
+            Input Player Names
+        </p>
+        <label>Player One:<br>
+            <input name="name" type="text" id="player1"><br>
+            <label>Player Two:<br>
+                <input name="name" type="text" id="player2"><br>
+                <label>Player Three:<br>
+                    <input name="name" type="text" id="player3"><br>
+                    <label>Player Four:<br>
+                        <input name="name" type="text" id="player4"><br>
+                        <label>On average, how many times would you roll the dice:
+                            <select name="rolls" id="spin">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            </select>
+        <br>
+        <button type="button" onclick="autoRoll()">Begin</button>
+        <button type="button" onclick="endRoll()">End</button> <br><br>
+        <h7 id="playerName"></h7>
+        <img id="randomImage" src="">
+    </body>
+</html>
